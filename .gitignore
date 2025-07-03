@@ -1,0 +1,25 @@
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# PDF uploads and FAISS vector store
+data/uploads/
+data/faiss_index/
+*.faiss
+*.pkl
+
+# IDE files
+.DS_Store
+.idea/
+.vscode/
+
+# Model downloads
+*.bin
+*.pt
+
